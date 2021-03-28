@@ -56,5 +56,6 @@
 	<classpathentry kind="lib" path="/home/donghui/Documents/lu_workspace/api_testing_example/external_jar_file/xml-path-4.1.1-dist/xml-path-4.1.1-deps/jaxb-osgi-2.3.0.1.jar"/>
 	<classpathentry kind="lib" path="/home/donghui/Documents/lu_workspace/api_testing_example/external_jar_file/xml-path-4.1.1-dist/xml-path-4.1.1-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
 	<classpathentry kind="lib" path="/home/donghui/Documents/lu_workspace/api_testing_example/external_jar_file/xml-path-4.1.1-dist/xml-path-4.1.1-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/donghui/Documents/lu_workspace/api_testing_example/external_jar_file/testng-7.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
