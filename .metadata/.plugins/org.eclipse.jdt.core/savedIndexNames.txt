@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/donghui/Documents/lu_workspace/api_testing_example/.metadata/.plugins/org.eclipse.jdt.core

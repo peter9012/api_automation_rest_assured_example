@@ -1,0 +1,24 @@
+package api_testing_example;
+
+import org.testng.annotations.Test;
+
+import files.payload;
+import io.restassured.path.json.JsonPath;
+
+public class SumValidation {
+	
+	@Test
+	public void sumOfCourses() 
+	{
+		JsonPath js = new JsonPath(payload.CoursePrice());
+		int count = js.getInt("courses.size()");
+		System.out.println(count);
+		for(int i = 0; i < count; i++) {
+			int price = js.getInt("courses["+i+"].price");
+			int copies = js.getInt("courses["+i+"].copies");
+			int amount = price*copies;
+			System.out.println(amount);
+		}
+	}
+	
+}
